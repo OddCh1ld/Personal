@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 /*
  * 
- * An array is a type of data structure that stores elements of the same type in a contiguous block of memory. In an array, , of size , each memory location has some unique index,  (where ), that can be referenced as  (you may also see it written as ).
+ * An array is a type of data structure that stores elements of the same type in a contiguous block of memory. 
+ * In an array, , of size , each memory location has some unique index,  (where ), that can be referenced as  (you may also see it written as ).
 
 Given an array, , of  integers, print each element in reverse order as a single line of space-separated integers.
 
@@ -119,5 +120,66 @@ namespace HackerRank
             //Console.WriteLine(inputStrings);
             Console.ReadLine();
         }
+
+        static void Main2DArray(string[,] args)
+        {
+            //Two - dimensional array example array
+            //int[,] array2D = new int[,] { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } };
+
+            //dis is da data
+            //1 1 1 0 0 0
+            //0 1 0 0 0 0
+            //1 1 1 0 0 0
+            //0 0 2 4 4 0
+            //0 0 0 2 0 0
+            //0 0 1 2 4 0
+
+            //first) we make the array.... hardcoded of course ;,(
+            #region Make the Array
+
+            int[,] twoDarray = new int[6,6] { {1, 1, 1, 0, 0, 0 }, 
+                                              {0, 1, 0, 0, 0, 0 },
+                                              {1, 1, 1, 0, 0, 0 },
+                                              {0, 0, 2, 4, 4, 0 },
+                                              {0, 0, 0, 2, 0, 0 },
+                                              {0, 0, 1, 2, 4, 0 } };
+
+            var rowCount = twoDarray.GetLength(0);
+            var colCount = twoDarray.GetLength(1);
+            for (int row = 0; row < rowCount; row++)
+            {
+                for (int col = 0; col < colCount; col++)
+                    Console.Write(String.Format("{0}\t", twoDarray[row, col]));
+                Console.WriteLine();
+            }
+
+                #endregion
+
+                //second) we display the hourglasses
+                #region Display Hourglasses
+
+                #endregion
+
+                //third) we test for hourglasses -> probably by counting them
+                #region test for Hourglasses
+
+                #endregion
+
+                //fourth) we sum the hourglasses -> test by displaying all sums... hand sum first
+                #region Sum the Hourglasses
+
+                #endregion
+
+                //fifth) we compare the sums -> set new highest if exists
+                #region Compare the Sums
+
+                #endregion
+
+                //sixth) we print the sum
+                #region Print the Sum
+
+                #endregion
+
+            }
     }
 }

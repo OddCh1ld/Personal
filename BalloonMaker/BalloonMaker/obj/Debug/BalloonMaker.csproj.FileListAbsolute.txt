@@ -9,3 +9,6 @@ C:\Users\User\Source\Repos\Personal2\BalloonMaker\BalloonMaker\obj\Debug\Balloon
 C:\Users\User\Source\Repos\Personal2\BalloonMaker\BalloonMaker\bin\Debug\BalloonMaker.exe
 C:\Users\User\Source\Repos\Personal2\BalloonMaker\BalloonMaker\bin\Debug\BalloonMaker.pdb
 C:\Users\User\Source\Repos\Personal2\BalloonMaker\BalloonMaker\obj\Debug\BalloonMaker.csprojResolveAssemblyReference.cache
+C:\Users\Gabe\Source\Repos\Personal\BalloonMaker\BalloonMaker\bin\Debug\BalloonMaker.exe.config
+C:\Users\Gabe\Source\Repos\Personal\BalloonMaker\BalloonMaker\obj\Debug\BalloonMaker.exe
+C:\Users\Gabe\Source\Repos\Personal\BalloonMaker\BalloonMaker\obj\Debug\BalloonMaker.pdb
